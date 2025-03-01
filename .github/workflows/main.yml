@@ -16,5 +16,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ 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 }}
         run: git push https://mashrifmahim443:$HF_TOKEN@huggingface.co/spaces/mashrifmahim443/oxydos main
