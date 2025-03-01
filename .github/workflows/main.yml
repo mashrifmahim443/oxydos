@@ -15,7 +15,7 @@ jobs:
 
     - name: Set up Git
       run: |
-        git config --global user.name mashrifmahim443
+        git config --global user.name Mashrif
         git config --global user.email mahimhassan443@gmail.com
 
     - name: Pull latest changes
