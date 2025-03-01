@@ -59,4 +59,4 @@ elif user_input:
     st.warning("Please enter the OPen AI aPi Key in the sider bar")
 else:
     st.write("Please provide the user input")
-#I think error is solved
+#After 13 attempts error should be solved
