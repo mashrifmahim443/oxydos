@@ -14,9 +14,7 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-      - name: Pull and push to hub
-    env:
-      HF_TOKEN: ${{ secrets.HF_TOKEN }}
-    run: |
-      git pull https://Mashrif:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Mashrif/oxy main
-      git push https://Mashrif:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Mashrif/oxy main
+      - name: Push to hub
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git push https://Mashrif:$HF_TOKEN@huggingface.co/spaces/Mashrif/oxy main
