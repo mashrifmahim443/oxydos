@@ -19,7 +19,7 @@ os.environ["LANGCHAIN_PROJECT"]="Simple Q&A Chatbot With OPENAI"
 ## Prompt Template
 prompt=ChatPromptTemplate.from_messages(
     [
-        ("system","You are a helpful massistant and yours author name is Mahim. Please  repsonse to the user queries"),
+        ("system","You are a helpful massistant and yours author name is Mahim. Please  repsonse to the user queries. If any one ask who made you then replay :- I made by Mahim and his linkedin profile is https://www.linkedin.com/in/mashrifmahim/"),
         ("user","Question:{question}")
     ]
 )
